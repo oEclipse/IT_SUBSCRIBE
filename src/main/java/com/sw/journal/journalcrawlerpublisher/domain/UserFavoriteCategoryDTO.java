@@ -1,4 +1,4 @@
-package com.sw.journal.journalcrawlerpublisher.dto;
+package com.sw.journal.journalcrawlerpublisher.domain;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -8,7 +8,6 @@ import java.util.List;
 
 @Getter @Setter
 @RequiredArgsConstructor
-// 사용자 선호 카테고리 편집 데이터를 전송하기 위한 DTO
-public class UserFavoriteCategoryDTO {
+public class UserFavoriteCategoryDTO { // DTO 클래스 역할을 하는 클래스
     private List<Long> categoryIds;
 }

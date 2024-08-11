@@ -1,6 +1,5 @@
-package com.sw.journal.journalcrawlerpublisher.dto;
+package com.sw.journal.journalcrawlerpublisher.domain;
 
-import com.sw.journal.journalcrawlerpublisher.domain.Member;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
